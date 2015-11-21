@@ -1,0 +1,13 @@
+"*":
+  "exception-reporting":
+    userId: "67ff6b20-e45c-6500-a4d3-a07390c26b80"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    invisibles: {}
+  "git-plus": {}
