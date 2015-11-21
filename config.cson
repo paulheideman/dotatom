@@ -6,8 +6,12 @@
   core:
     themes: [
       "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "atom-monokai"
     ]
   editor:
     invisibles: {}
+    fontFamily: "Consolas"
+    showIndentGuide: true
+    lineHeight: 1.2
+    fontSize: 12
   "git-plus": {}
