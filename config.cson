@@ -6,7 +6,10 @@
   core:
     themes: [
       "one-dark-ui"
-      "atom-monokai"
+      "slime"
+    ]
+    disabledPackages: [
+      "bracket-matcher"
     ]
   editor:
     invisibles: {}
@@ -15,3 +18,7 @@
     lineHeight: 1.2
     fontSize: 12
   "git-plus": {}
+  swackets: {}
+  "bracket-matcher":
+    autocompleteSmartQuotes: false
+    autocompleteBrackets: false
