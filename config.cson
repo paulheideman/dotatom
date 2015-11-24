@@ -5,15 +5,15 @@
     showOnStartup: false
   core:
     themes: [
-      "one-dark-ui"
-      "slime"
+      "dracula-ui"
+      "dracula-theme"
     ]
     disabledPackages: [
       "bracket-matcher"
     ]
   editor:
     invisibles: {}
-    fontFamily: "Consolas"
+    fontFamily: "Inconsolata"
     showIndentGuide: true
     lineHeight: 1.2
     fontSize: 12
@@ -22,3 +22,4 @@
   "bracket-matcher":
     autocompleteSmartQuotes: false
     autocompleteBrackets: false
+  "go-plus": {}
