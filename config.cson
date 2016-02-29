@@ -1,25 +1,26 @@
 "*":
-  "exception-reporting":
-    userId: "67ff6b20-e45c-6500-a4d3-a07390c26b80"
-  welcome:
-    showOnStartup: false
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
   core:
-    themes: [
-      "dracula-ui"
-      "dracula-theme"
-    ]
     disabledPackages: [
       "bracket-matcher"
     ]
+    themes: [
+      "zenburn-ui"
+      "zenburn"
+    ]
   editor:
-    invisibles: {}
     fontFamily: "Inconsolata"
-    showIndentGuide: true
-    lineHeight: 1.2
     fontSize: 12
+    invisibles: {}
+    lineHeight: 1.2
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "67ff6b20-e45c-6500-a4d3-a07390c26b80"
   "git-plus": {}
-  swackets: {}
-  "bracket-matcher":
-    autocompleteSmartQuotes: false
-    autocompleteBrackets: false
   "go-plus": {}
+  swackets: {}
+  welcome:
+    showOnStartup: false
